@@ -1,0 +1,41 @@
+      p.logo {
+        padding: 10px;
+        text-align: center;
+          /* background properties */
+        background-color: #E0E0E0;
+		margin-bottom: 0px;
+      }
+
+          img.iconL{
+              padding: 10px;
+              position: absolute;
+              left: 8px;
+			  right: 868px;
+              margin-top: 15px;
+          }
+          
+          img.iconC{
+              padding: 10px;
+              position: absolute;
+			  left: 438px;
+			  right: 438px;
+              margin-top: 15px;
+          }
+          
+          img.iconR{
+              padding: 10px;
+              position: absolute;
+			  text-align: center;
+			  left: 868px;
+			  right: 8px;
+              margin-top: 15px;
+          }
+          
+img.iconL, img.iconC, img.iconR {
+    height: 360px;
+    width: 360px;
+}
+
+.copyright {
+    position: absolute;
+}

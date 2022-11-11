@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+      
+      <meta charset="utf-8">
+
+      <link rel="stylesheet" type="text/css" href="projSitewideCollapsed.css">   
+      <link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua|Marcellus+SC|Josefin+Sans" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="portfolio.css">
+
+      
+      <title>Portfolio: Finished Artwork</title>
+
+    </head>
+    
+    <body>
+        <p class="logo">
+            <a href="projHomepage.html">
+            <img src="Images/logo.png" alt="logo">
+            </a>
+        </p>
+
+        <nav>
+<!--        <div id=dropbtn>
+            <img src="Images/downArrow.png" alt="Down Arrow">
+            </div> !-->
+        <ul>
+
+            <li id="left" class="dropdown"><a href="blog.html" class="dropbtn">Blog</a> <div class="dropdown-content1">
+                <a href="blog.html">General Discussion</a><a href="blog-inspiration.html">Artistic Inspiration</a></div></li>
+            <li id="center" class="dropdown"><a href="portfolio-finished.html" class="dropbtn">Portfolio</a><div class="dropdown-content2">
+                <a href="portfolio-finished.html">Finished Artwork</a>
+                <a href="portfolio-sketches.html">Sketches and WIP</a></div></li>
+            <li id="right" class="dropdown"><a href="about.html" class="dropbtn">About</a><div class="dropdown-content3">
+                <a href="about.html#me">The Artist</a>
+                <a href="about.html#site">This Website</a>
+                <a href="about-contact.html">Contact Me</a></div></li>
+        </ul>
+        
+        </nav>
+        <header>Finished Works</header>
+        <div id="gallery1">
+            <div id="box">
+            <div id="finMainImage">
+                <img src="Images/Portfolio/coexistence.jpg">
+            </div>
+            </div>
+            <button class="prev" onclick="prevImage()"> <img src="Images/leftArrow2.png"> </button>
+            <button class="next" onclick="nextImage()"> <img src="Images/rightArrow2.png"> </button>
+        </div>
+        
+        <script type="text/javascript">
+            var slider_content = document.getElementById('finMainImage');
+            
+            var image = ['Images/Portfolio/coexistence.jpg', 'Images/Portfolio/structure.jpg', 'Images/Portfolio/green.jpg', 'Images/Portfolio/fly.jpg', 'Images/Portfolio/succulent.jpg', 'Images/Portfolio/fade.jpg', 'Images/Portfolio/nytimes.jpg', 'Images/Portfolio/hands.jpg', 'Images/Portfolio/paris.jpg', 'Images/Portfolio/mask.jpg', 'Images/Portfolio/evelyn.jpg', 'Images/Portfolio/beardo.png', 'Images/Portfolio/castaway.jpg', 'Images/Portfolio/noon.jpg', 'Images/Portfolio/force.jpg', 'Images/Portfolio/Exam/1.jpg', 'Images/Portfolio/Exam/2.jpg', 'Images/Portfolio/Exam/3.jpg', 'Images/Portfolio/Exam/4.jpg', 'Images/Portfolio/Exam/5.jpg', 'Images/Portfolio/Exam/6.jpg', 'Images/Portfolio/Exam/7.jpg', 'Images/Portfolio/Exam/8.jpg', 'Images/Portfolio/Exam/9.jpg', 'Images/Portfolio/Exam/10.jpg', 'Images/Portfolio/Exam/11.jpg', 'Images/Portfolio/Exam/12.jpg'];
+            
+            var i = 1;
+            
+            function nextImage() {
+                if (i<image.length) {
+                    i = i+1;
+                }
+                else {
+                    i = 1;
+                }
+                slider_content.innerHTML = "<img src="+image[i-1]+">";
+            }
+            
+            function prevImage() {
+                if (i<image.length+1 && i>1) {
+                    i = i-1;
+                }
+                else {
+                    i = image.length;
+                }
+                slider_content.innerHTML = "<img src="+image[i-1]+">";
+            }
+        </script>
+        
+        <div id="comment">
+            <h2>Note:</h2>
+        <p>This image gallery is mostly comprised of pieces that I've created over the last three years. The final twelve photos in the series were submitted for my AP Studio Art Exam concentration in 2017. </p>
+        </div>
+        
+        <footer class="copyright">
+            &copy; 2018 Nathan Kalafut All Rights Reserved
+        </footer>
+        
+    </body>
+</html>

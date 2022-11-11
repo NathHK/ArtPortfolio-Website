@@ -1,0 +1,98 @@
+header {
+    text-align: center;
+    margin: 15px 5px 15px 5px;
+    font-size: 3.75em;
+    font-family: 'Marcellus SC', serif;
+}
+
+#leftPic {
+    padding-right: 20px;
+}
+
+#rightPic {
+    padding-left: 20px;
+}
+
+.post h1 {
+    font-family: 'Marcellus SC', serif;
+    background-color: #E0E0E0;
+    padding: 10px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+/*.post p:first-child {
+    margin-top:0;
+}
+
+.post p:last-child {
+    margin-bottom: 0;
+}
+*/
+.post footer {
+    height: 30px;
+    background-color: #B0B0B0;
+}
+
+.post {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    /*margin-bottom: 40px;*/
+    
+}
+
+
+.content {
+    padding: 0 10px 0 10px;
+    background-color: ;
+    margin-top: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.5em;
+}
+.copyright {
+    position: static;
+    width: 100%;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+time {
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 10px;
+}
+
+.toggle {
+    padding: 10px;
+    width: 600px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-family: "Marcellus SC", serif;
+}
+.toggle h4 {
+        font-weight: normal;
+}
+
+.toggle #new {
+    float: left;
+    display: block;
+}
+
+.toggle #old {
+    float: right;
+    display: block;
+}
+
+.toggle a {
+    text-decoration: normal;
+    color: black;
+}
+
+.toggle #page {
+    float: center;
+    display: inline-block;
+}

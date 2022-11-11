@@ -1,0 +1,25 @@
+img.iconL, img.iconC, img.iconR {
+    text-align: center;
+    position: relative;
+    display: block;
+    margin: 20px 100px 20px 100px;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 300px;
+}
+
+img.iconL {
+    margin-top: 40px;
+}
+
+.copyright {
+    position: static;
+    margin-top: 40px;
+}
+
+.copyright{
+    position: static;
+}
+

@@ -1,0 +1,75 @@
+#box {
+    width: 50%;
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: white;
+    /*border-left: #E0E0E0 solid;
+    border-right: #E0E0E0 solid;*/
+}
+#box {
+    text-align: center;
+}
+
+#gallery1, #gallery2 {
+    margin-top: 20px;
+    width: 800px;
+    height: 400px;
+    margin: 20px auto;
+    margin-bottom: 40px;
+    position: relative;
+    border: none;
+    background-color: #E0E0E0;
+    /*border: 10px solid black;
+    box-shadow: 0px 0px 5px 2px;*/
+}
+
+button {
+    background-color: #E0E0E0;
+    padding: 0px 10px 0px 10px;
+    border: none;
+    position: absolute;
+    top: 175px;
+    cursor: pointer;
+}
+
+.next {
+    margin-left: 690px;
+}
+
+.prev {
+    margin-left: 40px;
+}
+header {
+    text-align: center;
+    margin: 40px 5px 40px 5px;
+    font-size: 3.75em;
+    font-family: 'Marcellus SC', serif;
+}
+
+.copyright {
+    position: static;
+    width: 100%
+}
+
+#comment p {
+    text-align: center;
+    width: 500px;
+    margin-left: 505px;
+    margin-right: 505px;;
+    margin: 0 auto 60px auto;
+    position: relative;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.25em;
+}
+
+#comment {
+    width: 100%;
+}
+
+#comment h2 {
+    text-align: center;
+    font-family: 'Marcellus SC', serif;
+}

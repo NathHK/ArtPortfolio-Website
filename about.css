@@ -1,0 +1,104 @@
+header {
+    text-align: center;
+    margin: 20px 5px 40px 5px;
+}
+
+#leftImg {
+    padding-right: 20px;
+}
+
+#rightImg {
+    padding-left: 20px;
+}
+
+
+#holder {
+    width: 100%;
+}
+
+.blurb {
+    text-align: center;
+    width: 500px;
+    margin-left: 505px;
+    margin-right: 505px;;
+    margin: 0 auto 60px auto;
+    position: relative;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.5em;
+}
+h1 {
+    font-family: 'Marcellus SC', serif;
+    text-align: left;
+    background-color: #E0E0E0;
+    padding: 10px;
+}
+
+section p {
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.5em;
+    text-align: justify;
+    width: 600px;
+    margin: 0 auto 0 auto;
+    padding: 10px;
+    position: relative;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.5em;
+}
+
+#contact {
+    text-align: center;
+    margin: 40px 5px 40px 5px;
+    font-size: 3.75em;
+    font-family: 'Marcellus SC', serif;
+}
+
+form {
+    display: table;
+    margin-left: 415px;
+    margin-right: 415px;
+    margin: auto;
+    margin-bottom: 60px;
+    padding: 10px;
+    background-color: #E0E0E0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+form textarea {
+    width: 430px;
+    height: 200px;
+    font-size: small;
+}
+
+.tableRow {
+    display: table-row;
+}
+
+.tableRow p {
+    display: table-cell;
+    /*vertical-align: top;*/
+    padding: 10px;
+}
+
+.tableRow p:first-child {
+    text-align: left;
+}
+
+.tableRow p:last-child {
+    vertical-align: top;
+}
+
+.textBox {
+    width: 150px;
+    height: 15px;
+    font-size: small;
+}
+
+#subbtn {
+    width: 50px;
+}
+
+.copyright {
+    position: static;
+    width: 100%;
+    margin-top: 40px;
+}

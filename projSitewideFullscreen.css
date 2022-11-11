@@ -1,0 +1,88 @@
+p.logo {
+        padding: 10px;
+        text-align: center;
+          /* background properties */
+        background-color: #E0E0E0;
+        margin-bottom: 0px;
+      }
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #aaa;
+    font-size: 1.125em;
+    font-style: bold;
+    font-family: 'Spectral SC', serif;
+}
+
+nav li a {
+      display: block;
+      padding: 14px 0 14px 0;
+      color: black;
+      text-align: center;
+      text-decoration: none;
+}
+
+/*.dropbtn {
+    display: inline-block;
+}*/
+
+nav li {
+    float: left;
+    width: 432px;
+    /*border-right: 1px solid black;
+    /*Indicates drop down menu with unique cursor*/
+    cursor: pointer;
+}
+
+#left {
+    margin-left: 64px;
+    /*padding: 0 36px 0 36px;*/
+}
+
+#center {
+    /*padding: 0 36px 0 36px;*/
+}
+
+#right {
+    /*padding: 0 36px 0 36px;*/
+    margin-right: 64px;
+}
+
+nav li:last-child {
+    border: none;
+}
+
+nav li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content1, .dropdown-content2, .dropdown-content3 {
+    display: none;
+    position: absolute;
+    background-color: #aaa;
+    min-width: 432px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content1 a, .dropdown-content2 a, .dropdown-content3 a {
+    color: black;
+    padding: 12px 36px 12px 36px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    /*border: thin black solid;*/
+}
+
+nav li a:hover, .dropdown:hover .dropbtn .dropdown-content1 a:hover, .dropdown-content2 a:hover, .dropdown-content3 a:hover {
+    background-color: #888888;
+}
+
+.dropdown:hover .dropdown-content1, .dropdown:hover .dropdown-content2, .dropdown:hover .dropdown-content3 {
+    display: block;
+}
+
+/*Need to separare the dropdown content for each of the nav headlines. If each has a unique class (ex: .dropdown-content1 / .dropdown-content2) then they will HOPEFULLY not all pop up when any one of the headlines are hovered over. Add adjustments to HTML and CSS accordingly.*/

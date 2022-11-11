@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+      
+      <meta charset="utf-8">
+
+      <link rel="stylesheet" type="text/css" href="projSitewideCollapsed.css">   
+      <link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua|Marcellus+SC|Josefin+Sans" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="about.css">
+
+      
+      <title>Contact Me</title>
+      
+      <script src="gen_validatorv4.js" type="text/javascript"></script>
+
+    </head>
+    
+    <body>
+        <p class="logo">
+            <a href="projHomepage.html">
+            <img src="Images/logo.png" alt="logo">
+            </a>
+        </p>
+
+        <nav>
+<!--        <div id=dropbtn>
+            <img src="Images/downArrow.png" alt="Down Arrow">
+            </div> !-->
+        <ul>
+
+            <li id="left" class="dropdown"><a href="blog.html" class="dropbtn">Blog</a> <div class="dropdown-content1">
+                <a href="blog.html">General Discussion</a><a href="blog-inspiration.html">Artistic Inspiration</a></div></li>
+            <li id="center" class="dropdown"><a href="portfolio-finished.html" class="dropbtn">Portfolio</a><div class="dropdown-content2">
+                <a href="portfolio-finished.html">Finished Artwork</a>
+                <a href="portfolio-sketches.html">Sketches and WIP</a></div></li>
+            <li id="right" class="dropdown"><a href="about.html" class="dropbtn">About</a><div class="dropdown-content3">
+                <a href="about.html#me">The Artist</a>
+                <a href="about.html#site">This Website</a>
+                <a href="about-contact.html">Contact Me</a></div></li>
+        </ul>
+        </nav>
+        
+        <header id="contact"><img src="Images/envelope.png" id="leftImg" alt="envelope">Contact Me<img src="Images/envelope.png" id="rightImg" alt="envelope"></header>
+        
+        <p class="blurb">Have something you'd like to say? This is the way to reach me! Whether it be questions about the site or comments on my <br/>artwork&mdash;praise or criticism&mdash;I'd really appreciate the feedback.<br/><br/>***Note: Form submission is not yet functional, as the "Send" button will not submit information to my email. Thank you for your consideration while I try to work this out. </p>
+        
+        <div id="holder">
+        <form action="about-contact.html" method="post" name="feedback" id="feedback">
+            <div class="tableRow">
+                <p>Name:</p>
+                <p> <input type="text" name="name" value="" class="textBox" id="name"> </p>
+            </div>
+            <div class="tableRow">
+                <p>Subject:</p>
+                <p> <input type="text" name="subject" value="" class="textBox" id="subject"> </p>
+            </div>
+            <div class="tableRow">
+                <p>Comments:</p>
+                <p>
+                    <textarea name="comments" rows="15" cols="60" id="comments"></textarea>
+                </p>
+            </div>
+            <div class="tableRow">
+                <p></p>
+                <p> <input type="submit" value="Send" id="subbtn"></p>
+            </div>
+        </form>
+        </div>
+        
+        <script type="text/javascript">
+            var frmvalidator = new Validator("feedback");
+            
+            frmvalidator.addValidation("name", "req", "Please enter your name.");
+            /* frmvalidator.addValidation("name", "alphabetic_space", "Please only use letters and/or spaces when entering your name."); */
+            
+            frmvalidator.addValidation("subject", "req", "Please include a subject.");
+            
+            frmvalidator.addValidation("comments", "req", "Please write your feedback in the text box provided.");
+
+            frmvalidator.EnableMsgsTogether();
+        </script>
+            
+        
+        <footer class="copyright">
+            &copy; 2018 Nathan Kalafut All Rights Reserved
+        </footer>
+        
+    </body>
+</html>
