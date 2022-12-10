@@ -13,3 +13,7 @@ As an aside, I did write a short JavaScript program for my website which allows 
 ## Plan Going Forward:
 
 This website currently stands as a **finished** project. While I would like to have an online portfolio that I've made from scratch (both for the fun of development and as a display of my skills), there are other projects and responsibilities higher on my To-Do List. If I ever decide to return to this website and commit to keeping it up-to-date, I'll update this README accordingly. 
+
+## License
+
+This work is published under the **GNU General Public License v3.0**.
